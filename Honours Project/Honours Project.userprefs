@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Gavin's Assets\Scripts\Game\_GUI.cs">
+    <Files>
+      <File FileName="Assets\Gavin's Assets\Scripts\Login\AdminPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Login\Properties.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Login\Menu_GUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Login\Login.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Game\Enemy_Spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Login\PhotonConnector.cs" Line="1" Column="1" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Game\_GUI.cs" Line="135" Column="81" />
+      <File FileName="Assets\Gavin's Assets\Scripts\Game\Enemy_AI.cs" Line="43" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Gavin\Desktop\current\Honours Project\Assets\Gavin's Assets\Scripts\Login\PhotonConnector.cs" line="43" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

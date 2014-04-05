@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{86D89B85-BCBF-C7AB-063A-2433E623CFD4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Spider\Explosions\Scripts\EffectSequencer.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ElectricShockwave.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ExplosionControl.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ExplosionLine.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ExplosionTestCage.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ExplosionTrail.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\MuzzleFlashAnimate.js" />
+     <Compile Include="Assets\Spider\Explosions\Scripts\ScaleAndDestroyRefractSphere.js" />
+     <Compile Include="Assets\Spider\Plugins\GLOBAL.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\AI.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\AttackMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\BuzzerKamikazeControllerAndAi.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\DisableOutsideRadius.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\MechAttackMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\PatrolMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\PatrolPoint.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\PatrolRoute.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\SpiderAttackMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\SpiderReturnMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\AI\SwarmAI.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\FanRotate.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\FootstepHandler.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\MechAnimation.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\MechAnimationTest.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\PlayerAnimation.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\SpiderAnimation.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\SpiderAnimationTest.js" />
+     <Compile Include="Assets\Spider\Scripts\Animation\conveyorBelt.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\BrokenScreen.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\ColoredNoise.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\DeactivatorOnLowQuality.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\GlowChange.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\GlowPlane.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\GlowPlaneAngleFade.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\HeightDepthOfField.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\LaserScope.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\MobileBloom.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\MoodBox.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\MoodBoxData.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\MoodBoxManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\PostEffects.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\QualityManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\RenderFogPlane.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\SelfIlluminationBlink.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\ShaderDatabase.js" />
+     <Compile Include="Assets\Spider\Scripts\Fx\WorldSpaceSpecular.js" />
+     <Compile Include="Assets\Spider\Scripts\Managers\MaterialImpactManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Managers\Spawner.js" />
+     <Compile Include="Assets\Spider\Scripts\Managers\TextAdventureManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\EndOfLevel.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\PlaySoundOnTrigger.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\ReBirth.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\ShowFps.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\SimpleRotate.js" />
+     <Compile Include="Assets\Spider\Scripts\Misc\StaticFollower.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\DestroyObject.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\EmitParticles.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\EnemyArea.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\Lock.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\LockedThing.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\PlayAnimation.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\PlayAnimationAndBack.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\PlaySound.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\PlaySoundAndBack.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\SetCheckpoint.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\ShiftUV.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\SignalSender.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\SpawnAtCheckpoint.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\SpawnMultipleObjects.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\SpawnObject.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\TerminalHack.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\TriggerOnMouse.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\TriggerOnMouseOrJoystick.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\TriggerOnPresence.js" />
+     <Compile Include="Assets\Spider\Scripts\Modules\TriggerOnTag.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\CameraControl.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\FreeMovementMotor.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\HoverMovementMotor.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\Joystick.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\KamikazeMovementMotor.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\MechMovementMotor.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\MovementMotor.js" />
+     <Compile Include="Assets\Spider\Scripts\Movement\PlayerMoveController.js" />
+     <Compile Include="Assets\Spider\Scripts\Rain\RainBox.js" />
+     <Compile Include="Assets\Spider\Scripts\Rain\RainManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Rain\RainsplashBox.js" />
+     <Compile Include="Assets\Spider\Scripts\Rain\RainsplashManager.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\AutoFire.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\CopyRotation.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\Health.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\HealthFlash.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\PerFrameRaycast.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\SeekerBullet.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\SimpleBullet.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\SlowBulletFire.js" />
+     <Compile Include="Assets\Spider\Scripts\Weapons\SlowBulletFireWithNoise.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditiveBlend.shader" />
+     <None Include="Assets\Gavin&apos;s Assets\Shaders\Additive.shader" />
+     <None Include="Assets\Spider\Resources\HeightDepthOfField.shader" />
+     <None Include="Assets\Spider\Resources\BlurPassesForDof.shader" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Gavin&apos;s Assets\Pathfinding\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\Fallback.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective 1.shader" />
+     <None Include="Assets\Shaders\Fx\Multiply.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Gavin&apos;s Assets\Pathfinding\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\Gavin&apos;s Assets\Shaders\Wireframe.shader" />
+     <None Include="Assets\Spider\Resources\ColoredNoise.shader" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\PlanarRealtimeReflection.shader" />
+     <None Include="Assets\Gavin&apos;s Assets\Pathfinding\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundPlanar.shader" />
+     <None Include="Assets\Shaders\BackgroundAndCharacters\EnemySelfIlluminationReflective.shader" />
+     <None Include="Assets\Spider\Resources\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\Gavin&apos;s Assets\Pathfinding\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
+     <None Include="Assets\Shaders\Fx\ParticleBlend.shader" />
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
